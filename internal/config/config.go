@@ -1,4 +1,4 @@
-// config.go — fuzzy-adventure.
+// config.go — post-passport.
 // Author: d28035203
 
 package config

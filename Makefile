@@ -26,7 +26,7 @@ test-coverage: deps-test
 # Test with Docker (integration tests)
 test-integration:
 	@echo "Running integration tests..."
-	docker-compose exec app go test -v -cover -race github.com/d28035203/fuzzy-adventure/tests/ | tee test-integration-output.log
+	docker-compose exec app go test -v -cover -race github.com/d28035203/post-passport/tests/ | tee test-integration-output.log
 
 # Dependencies
 deps:

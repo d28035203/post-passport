@@ -1,4 +1,4 @@
-module github.com/d28035203/fuzzy-adventure
+module github.com/d28035203/post-passport
 
 go 1.21
 

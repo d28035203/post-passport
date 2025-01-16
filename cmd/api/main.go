@@ -1,4 +1,4 @@
-// main.go — fuzzy-adventure.
+// main.go — post-passport.
 // Author: d28035203
 
 package main
@@ -9,13 +9,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/d28035203/fuzzy-adventure/internal/config"
-	"github.com/d28035203/fuzzy-adventure/internal/handlers"
-	"github.com/d28035203/fuzzy-adventure/internal/middleware"
-	"github.com/d28035203/fuzzy-adventure/internal/models"
-	"github.com/d28035203/fuzzy-adventure/internal/repo"
-	"github.com/d28035203/fuzzy-adventure/internal/services"
-	"github.com/d28035203/fuzzy-adventure/pkg/logger"
+	"github.com/d28035203/post-passport/internal/config"
+	"github.com/d28035203/post-passport/internal/handlers"
+	"github.com/d28035203/post-passport/internal/middleware"
+	"github.com/d28035203/post-passport/internal/models"
+	"github.com/d28035203/post-passport/internal/repo"
+	"github.com/d28035203/post-passport/internal/services"
+	"github.com/d28035203/post-passport/pkg/logger"
 	"github.com/gin-gonic/gin"
 )
 
@@ -62,7 +62,7 @@ func main() {
 
 	// Health check
 	r.GET("/health", func(c *gin.Context) {
-		c.JSON(200, gin.H{"status": "ok", "service": "fuzzy-adventure-api"})
+		c.JSON(200, gin.H{"status": "ok", "service": "post-passport-api"})
 	})
 
 	// Auth routes

@@ -1,4 +1,4 @@
-// auth.go — fuzzy-adventure.
+// auth.go — post-passport.
 // Author: d28035203
 
 package middleware

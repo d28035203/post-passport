@@ -1,10 +1,10 @@
-// post.go — fuzzy-adventure.
+// post.go — post-passport.
 // Author: d28035203
 
 package repo
 
 import (
-	"github.com/d28035203/fuzzy-adventure/internal/models"
+	"github.com/d28035203/post-passport/internal/models"
 	"gorm.io/gorm"
 )
 

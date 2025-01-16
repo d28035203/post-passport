@@ -1,11 +1,11 @@
-// user.go — fuzzy-adventure.
+// user.go — post-passport.
 // Author: d28035203
 
 package services
 
 import (
-	"github.com/d28035203/fuzzy-adventure/internal/models"
-	"github.com/d28035203/fuzzy-adventure/internal/repo"
+	"github.com/d28035203/post-passport/internal/models"
+	"github.com/d28035203/post-passport/internal/repo"
 )
 
 // UserService handles business logic for User operations

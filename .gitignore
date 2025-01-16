@@ -50,3 +50,7 @@ temp/
 # Generated
 generated/
 dist/
+
+# built binary
+/api
+*.exe

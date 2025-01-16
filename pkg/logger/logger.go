@@ -1,4 +1,4 @@
-// logger.go — fuzzy-adventure.
+// logger.go — post-passport.
 // Author: d28035203
 
 package logger

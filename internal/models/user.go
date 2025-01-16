@@ -1,4 +1,4 @@
-// user.go — fuzzy-adventure.
+// user.go — post-passport.
 // Author: d28035203
 
 package models

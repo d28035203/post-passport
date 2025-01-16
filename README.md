@@ -1,4 +1,4 @@
-# Fuzzy Adventure
+# Post Passport
 
 Go API platform with JWT auth, users/posts CRUD, PostgreSQL (GORM), Redis, Docker Compose, and unit tests.
 
@@ -17,8 +17,8 @@ Go · Gin · GORM · PostgreSQL · Redis · Docker
 ## Run
 
 ```bash
-git clone https://github.com/d28035203/fuzzy-adventure.git
-cd fuzzy-adventure
+git clone https://github.com/d28035203/post-passport.git
+cd post-passport
 cp .env.example .env
 docker compose up --build
 # or: make run

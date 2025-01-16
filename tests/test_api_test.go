@@ -1,4 +1,4 @@
-// test_api_test.go — fuzzy-adventure.
+// test_api_test.go — post-passport.
 // Author: d28035203
 
 package tests
@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/d28035203/fuzzy-adventure/internal/handlers"
-	"github.com/d28035203/fuzzy-adventure/internal/middleware"
-	"github.com/d28035203/fuzzy-adventure/internal/models"
-	"github.com/d28035203/fuzzy-adventure/internal/repo"
-	"github.com/d28035203/fuzzy-adventure/internal/services"
-	"github.com/d28035203/fuzzy-adventure/pkg/logger"
+	"github.com/d28035203/post-passport/internal/handlers"
+	"github.com/d28035203/post-passport/internal/middleware"
+	"github.com/d28035203/post-passport/internal/models"
+	"github.com/d28035203/post-passport/internal/repo"
+	"github.com/d28035203/post-passport/internal/services"
+	"github.com/d28035203/post-passport/pkg/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"gorm.io/driver/sqlite"
@@ -95,7 +95,7 @@ func SetupTest(t *testing.T) {
 
 	// Health check
 	TestRouter.GET("/health", func(c *gin.Context) {
-		c.JSON(200, gin.H{"status": "ok", "service": "fuzzy-adventure-api"})
+		c.JSON(200, gin.H{"status": "ok", "service": "post-passport-api"})
 	})
 }
 
@@ -122,8 +122,8 @@ func TestHealthEndpoint(t *testing.T) {
 	if resp["status"] != "ok" {
 		t.Fatalf("Expected status 'ok', got '%v'", resp["status"])
 	}
-	if resp["service"] != "fuzzy-adventure-api" {
-		t.Fatalf("Expected service 'fuzzy-adventure-api', got '%v'", resp["service"])
+	if resp["service"] != "post-passport-api" {
+		t.Fatalf("Expected service 'post-passport-api', got '%v'", resp["service"])
 	}
 }
 

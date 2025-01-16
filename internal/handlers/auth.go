@@ -1,4 +1,4 @@
-// auth.go — fuzzy-adventure.
+// auth.go — post-passport.
 // Author: d28035203
 
 package handlers
@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/d28035203/fuzzy-adventure/internal/models"
-	"github.com/d28035203/fuzzy-adventure/internal/services"
+	"github.com/d28035203/post-passport/internal/models"
+	"github.com/d28035203/post-passport/internal/services"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 )
