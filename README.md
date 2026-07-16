@@ -1,4 +1,6 @@
-# Post Passport
+# Go Users & Posts API
+
+> Repository: `post-passport` · https://github.com/d28035203/post-passport
 
 Go API platform with JWT auth, users/posts CRUD, PostgreSQL (GORM), Redis, Docker Compose, and unit tests.
 
